@@ -1,6 +1,7 @@
 import './App.css'
 import { Header } from './pages/header'
 import { Footer } from './pages/Footer'
+import { ImageUploader } from './pages/imageUploader'
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <Header />
 
       <main className="flex-1 p-6">
-        <p className="text-gray-700">Upload your images here...</p>
+        <ImageUploader />
       </main>
 
       <Footer />

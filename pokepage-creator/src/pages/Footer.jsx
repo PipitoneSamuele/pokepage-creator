@@ -1,4 +1,4 @@
-export function Header() {
+export function Footer() {
     return(
         <>
             <footer className="bg-gray-100 text-gray-600 text-center p-4">
