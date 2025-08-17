@@ -2,6 +2,7 @@ import './App.css'
 import { Header } from './pages/header'
 import { Footer } from './pages/Footer'
 import { ImageUploader } from './pages/imageUploader'
+import Grid from './pages/Grid'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
       <Header />
 
       <main className="flex-1 p-6">
+        <Grid />
+        <div style={{marginBottom: 100}}></div>
         <ImageUploader />
       </main>
 

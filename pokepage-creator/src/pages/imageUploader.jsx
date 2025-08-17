@@ -16,7 +16,7 @@ export function ImageUploader() {
       'image/*': ['.jpeg', '.jpg', '.png', '.gif']
     },
     onDrop,
-    maxFiles: 5 // Limit to 5 files
+    maxFiles: 9
   });
 
   // Clean up object URLs to avoid memory leaks
